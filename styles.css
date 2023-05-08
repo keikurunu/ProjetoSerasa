@@ -1,0 +1,118 @@
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap");
+
+.topnav {
+  background-color: #6d2077;
+  overflow: hidden;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  font-family: "Roboto", sans-serif;
+}
+.topnav a.active {
+  background-color: #af1685;
+  color: white;
+}
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.top1:hover {
+  background-color: #af1685;
+}
+.top2:hover {
+  background-color: #af1685;
+}
+.topnav-right {
+  float: right;
+  cursor: pointer;
+}
+.ms-rte-layoutszone-outer {
+  float: left;
+}
+.ms-wiki-columnSpacing {
+  padding-left: 24px;
+}
+td {
+  display: table-cell;
+  vertical-align: inherit;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 73% 4% 23%;
+}
+a {
+  text-decoration: none;
+  font-family: "Roboto", sans-serif;
+}
+p {
+  font-family: "Roboto", sans-serif;
+  color: #333333;
+  font-size: 11pt;
+}
+::marker {
+  unicode-bidi: isolate;
+  font-variant-numeric: tabular-nums;
+  text-transform: none;
+  text-indent: 0px !important;
+  text-align: start !important;
+  text-align-last: start !important;
+}
+.ms-rteStyle-Normal {
+  font-weight: normal;
+}
+ul {
+  line-height: 0.8;
+}
+h3 {
+  font-size: 1.15em;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  font-weight: bold;
+  font-family: "Roboto", sans-serif;
+}
+.ms-rteFontSize-2 {
+  font-size: 11pt;
+}
+.coluna1 {
+  padding: 10px;
+}
+.coluna3 {
+  padding: 10px;
+}
+.bloco1 {
+  display: flex;
+}
+.icones {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  border-radius: 10px;
+}
+.contatos {
+  color: #6d2077;
+}
+.Saibamais {
+  font-size: 15px;
+  color: #6d2077;
+  font-weight: normal;
+}
+a.Saibamais {
+  color: #406eb3;
+}
+.just {
+  text-align: justify;
+}
+.mudar {
+  list-style-type: square;
+}
